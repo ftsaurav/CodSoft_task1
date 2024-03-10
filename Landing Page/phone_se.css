@@ -1,0 +1,80 @@
+.navigation {
+    background-color: black;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation ul li{
+    justify-content: center;
+    align-items: center;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: rgb(221, 218, 218);
+    font-size: .8rem;
+}
+ul{
+    padding:0px;
+}
+#heading {
+    /* display: flex; */
+    font-family: 'Rubik Glitch Pop', system-ui;
+    color: red;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+.head p{
+    font-size: 1rem;
+}
+nav::before {
+    background: url(https://cdn.pixabay.com/photo/2020/03/25/21/05/pizza-4968645_1280.jpg);
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 35rem;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    z-index: -1;
+    /* opacity: 0.8; */
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.online {
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: rgb(240, 237, 237);
+    padding: 5px 10px;
+    margin: 10px 10px;
+    /* text-decoration: underline; */
+}
+.service {
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: rgb(240, 237, 237);
+    padding: 5px 10px;
+    margin: 10px 10px;
+}
+.cattering {
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: rgb(240, 237, 237);
+    padding: 5px 10px;
+    margin: 10px 10px;
+}
+.clients_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url(https://images.squarespace-cdn.com/content/v1/57b76d92725e253599f3c373/1494568166881-01L5J55WTW75Y7OAWER9/clients.jpg?format=1500w);
+    /* height: 92vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

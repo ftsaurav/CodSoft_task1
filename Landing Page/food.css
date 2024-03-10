@@ -1,0 +1,211 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    background-color: black;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+ul{
+    padding:0px;
+}
+
+.navigation ul li a {
+    margin: 1rem;
+    padding: .2rem;
+    text-decoration: none;
+    color: rgb(221, 218, 218);
+}
+
+.navigation ul li a:hover {
+    color: white;
+}
+
+.head {
+    text-align: center;
+}
+
+.head p {
+    color: white;
+}
+
+#heading {
+    /* display: flex; */
+    font-family: 'Rubik Glitch Pop', system-ui;
+    color: red;
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+
+nav::before {
+    background: url(https://cdn.pixabay.com/photo/2020/03/25/21/05/pizza-4968645_1280.jpg);
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 35rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    /* opacity: 0.8; */
+}
+
+.btn {
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(236, 156, 9);
+    border: 2px solid rgb(236, 156, 9);
+
+}
+
+.our_services {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section1 {
+    display: flex;
+    margin: 20px;
+
+}
+
+.online {
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: rgb(240, 237, 237);
+    padding: 5px 10px;
+    margin: 0px 10px;
+    /* text-decoration: underline; */
+}
+
+.online img {
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.service {
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: rgb(240, 237, 237);
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+
+.service img {
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.cattering {
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: rgb(240, 237, 237);
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+
+.cattering img {
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.open {
+    text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#clients {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.clients_img {
+    display: flex;
+    justify-content: center;
+    background: url(https://images.squarespace-cdn.com/content/v1/57b76d92725e253599f3c373/1494568166881-01L5J55WTW75Y7OAWER9/clients.jpg?format=1500w);
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.clients_img img {
+    width: 150px;
+    height: 150px;
+    margin: 0rem 3rem;
+    border-radius: 100px;
+}
+
+#contact {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece7e7;
+    height: 20rem;
+}
+
+.information div {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+}
+
+.information div input {
+    width: 20rem;
+    padding: .3rem;
+}
+
+.btn1 {
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    background-color: rgb(15, 15, 147);
+    border: 2px solid rgb(15, 15, 147);
+
+}
+
+#copyrights {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    height: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
